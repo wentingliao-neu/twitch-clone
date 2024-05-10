@@ -17,7 +17,7 @@ export async function onBlock(id: string) {
    try {
       blockedUser = await blockUser(id);
    } catch {
-      //guest
+      blockedUser = null;
    }
 
    try {
