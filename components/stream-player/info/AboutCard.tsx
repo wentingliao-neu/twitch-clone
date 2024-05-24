@@ -1,6 +1,6 @@
 "use client";
 
-import VerifiedMark from "../VerifiedMark";
+import VerifiedMark from "../../VerifiedMark";
 import BioModal from "./BioModal";
 
 interface AboutCardProps {

@@ -8,9 +8,9 @@ import { useChatSidebar } from "@/store/use-chat-sidebar";
 import { cn } from "@/lib/utils";
 import Chat, { ChatSkeleton } from "./chat/Chat";
 import ChatToggle from "./chat/ChatToggle";
-import Header, { HeaderSkeleton } from "./Header";
-import InfoCard from "./InfoCard";
-import AboutCard from "./AboutCard";
+import Header, { HeaderSkeleton } from "./info/Header";
+import InfoCard from "./info/InfoCard";
+import AboutCard from "./info/AboutCard";
 
 type CustomStream = {
    id: string;

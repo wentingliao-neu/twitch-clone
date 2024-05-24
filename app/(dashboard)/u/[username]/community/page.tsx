@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import { getBlockedUsers } from "@/lib/block-service";
 import { DataTable } from "./_components/DataTable";
 import { columns } from "./_components/columns";

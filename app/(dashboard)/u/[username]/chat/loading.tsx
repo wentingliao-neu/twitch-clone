@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ToggleCardSkeleton } from "./_components/ToggleCard";
 

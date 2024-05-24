@@ -1,5 +1,4 @@
-import { SignedOut, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
-import Image from "next/image";
+export const runtime = "edge";
 import { Suspense } from "react";
 import Results, { ResultsSkeleton } from "./_components/Results";
 

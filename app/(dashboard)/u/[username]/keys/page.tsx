@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+export const runtime = "edge";
 import UrlCard from "./_components/UrlCard";
 import { getStreamByUserId } from "@/lib/stream-service";
 import { getSelf } from "@/lib/auth-service";

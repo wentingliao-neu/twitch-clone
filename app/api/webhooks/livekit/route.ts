@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import { db } from "@/lib/db";
 import { WebhookReceiver } from "livekit-server-sdk";
 import { headers } from "next/headers";

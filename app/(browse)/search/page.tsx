@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import { redirect } from "next/navigation";
 import Results, { ResultsSkeleton } from "./_components/Results";
 import { Suspense } from "react";

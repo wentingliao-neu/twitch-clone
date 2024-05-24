@@ -1,4 +1,5 @@
 /** app/api/uploadthing/route.ts */
+export const runtime = "edge";
 import { ourFileRouter } from "./core";
 import { createRouteHandler } from "uploadthing/next";
 
